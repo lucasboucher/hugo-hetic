@@ -1,4 +1,4 @@
 baseURL = 'https://lucasboucher.github.io/hugo-hetic/'
 languageCode = 'fr-fr'
 title = 'Lucas Boucher'
-theme = 'ananke'
+theme = 'PaperMod'
