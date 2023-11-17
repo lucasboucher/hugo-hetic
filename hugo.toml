@@ -1,4 +1,115 @@
+#
+# Paramètres globaux
+#
+
+# URL de base
 baseURL = 'https://lucasboucher.github.io/hugo-hetic/'
+
+# Code du langage parlé
 languageCode = 'fr-fr'
+
+# Titre du site
 title = 'Lucas Boucher'
+
+# Thème sélectionné
 theme = 'PaperMod'
+
+
+#
+# Paramètres du thème
+#
+
+[params]
+
+# Description
+description = 'Premier site Hugo de Lucas Boucher'
+
+# Autheur
+author = 'Lucas Boucher'
+
+# Réglage du thème selon le système de l'utilisateur
+defaultTheme = "auto"
+
+# Désactiver le bouton de changement de thème
+disableThemeToggle = false
+
+# Voir le temps de lecture
+ShowReadingTime = true
+
+# Afficher le bouton de partage sur les réseaux
+ShowShareButtons = false
+
+# Voir le fil d'ariane
+ShowBreadCrumbs = false
+
+# Afficher la navigation sur les posts
+ShowPostNavLinks = false
+
+# Afficher un bouton pour copier les blocs de code
+ShowCodeCopyButtons = true
+
+# Désactiver les ancres sur les titres
+disableAnchoredHeadings = true
+
+# Cacher le footer
+hideFooter = true
+
+# Changer le format des dates
+DateFormat = '2 Jan 2006'
+
+# Mes informations
+[params.homeInfoParams]
+Title = "Bonjour 👋"
+Content = "Premier site [Hugo](https://gohugo.io) de Lucas Booucher"
+
+# # Bouton de suggestion d'édition
+# [params.editPost]
+# URL = "https://github.com/lucasboucher/hugo-hetic/tree/main/content/posts"
+# Text = "Suggérer des changements"
+# appendFilePath = true
+
+
+#
+# Réseaux sociaux
+#
+
+# GitHub
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/lucasboucher"
+
+# Dribbble
+[[params.socialIcons]]
+name = "dribbble"
+url = "https://dribbble.com/lucasboucher"
+
+# LinkedIn
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/lucasboucher/"
+
+
+#
+# Menu
+#
+
+# Catégories
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 10
+
+# Catégories
+[[menu.main]]
+identifier = "search"
+name = "recherche"
+url = "/search/"
+weight = 20
+
+# Mon site web
+[[menu.main]]
+identifier = "my_website"
+name = "lucasboucher.fr"
+url = "https://lucasboucher.fr"
+weight = 30

@@ -1,15 +1,15 @@
-# Generated files by hugo
+# Fichiers générés avec Hugo
 /public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
 
-# Executable may be added to repository
+# Les exécutables qui peuvent être ajoutés au repo
 hugo.exe
 hugo.darwin
 hugo.linux
 
-# Temporary lock file while building
+# Les fichiers temporaires .lock pendant la construction 
 /.hugo_build.lock
 
 # macOS
