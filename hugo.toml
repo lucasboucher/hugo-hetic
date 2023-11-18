@@ -113,3 +113,11 @@ identifier = "my_website"
 name = "lucasboucher.fr"
 url = "https://lucasboucher.fr"
 weight = 30
+
+
+#
+# Recherhce
+#
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]

@@ -4,7 +4,7 @@
 #
 
 # Titre
-title = 'Présentation de la technologie Hugo'
+title = 'Découverte de la technologie Hugo'
 
 # Date
 date = 2023-11-18T17:48:02+01:00
