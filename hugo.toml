@@ -52,7 +52,7 @@ ShowCodeCopyButtons = true
 disableAnchoredHeadings = true
 
 # Cacher le footer
-hideFooter = true
+hideFooter = false
 
 # Changer le format des dates
 DateFormat = '2 Jan 2006'
